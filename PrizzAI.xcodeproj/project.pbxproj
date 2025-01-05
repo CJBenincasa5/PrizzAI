@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		833A90BD2D2A16C60060EF5B /* PrizzAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A90BC2D2A16C60060EF5B /* PrizzAIApp.swift */; };
+		833A90BF2D2A16C60060EF5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A90BE2D2A16C60060EF5B /* ContentView.swift */; };
+		833A90C12D2A16CC0060EF5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833A90C02D2A16CC0060EF5B /* Assets.xcassets */; };
+		833A90C42D2A16CC0060EF5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833A90C32D2A16CC0060EF5B /* Preview Assets.xcassets */; };
+		833A90CE2D2A16CD0060EF5B /* PrizzAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A90CD2D2A16CD0060EF5B /* PrizzAITests.swift */; };
+		833A90D82D2A16CD0060EF5B /* PrizzAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A90D72D2A16CD0060EF5B /* PrizzAIUITests.swift */; };
+		833A90DA2D2A16CD0060EF5B /* PrizzAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A90D92D2A16CD0060EF5B /* PrizzAIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		833A90CA2D2A16CD0060EF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833A90B12D2A16C60060EF5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833A90B82D2A16C60060EF5B;
+			remoteInfo = PrizzAI;
+		};
+		833A90D42D2A16CD0060EF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833A90B12D2A16C60060EF5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833A90B82D2A16C60060EF5B;
+			remoteInfo = PrizzAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		833A90B92D2A16C60060EF5B /* PrizzAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrizzAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		833A90BC2D2A16C60060EF5B /* PrizzAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizzAIApp.swift; sourceTree = "<group>"; };
+		833A90BE2D2A16C60060EF5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		833A90C02D2A16CC0060EF5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		833A90C32D2A16CC0060EF5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		833A90C92D2A16CD0060EF5B /* PrizzAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrizzAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		833A90CD2D2A16CD0060EF5B /* PrizzAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizzAITests.swift; sourceTree = "<group>"; };
+		833A90D32D2A16CD0060EF5B /* PrizzAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrizzAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		833A90D72D2A16CD0060EF5B /* PrizzAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizzAIUITests.swift; sourceTree = "<group>"; };
+		833A90D92D2A16CD0060EF5B /* PrizzAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizzAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		833A90B62D2A16C60060EF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833A90C62D2A16CD0060EF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833A90D02D2A16CD0060EF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833A90B02D2A16C60060EF5B = {
+			isa = PBXGroup;
+			children = (
+				833A90BB2D2A16C60060EF5B /* PrizzAI */,
+				833A90CC2D2A16CD0060EF5B /* PrizzAITests */,
+				833A90D62D2A16CD0060EF5B /* PrizzAIUITests */,
+				833A90BA2D2A16C60060EF5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		833A90BA2D2A16C60060EF5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833A90B92D2A16C60060EF5B /* PrizzAI.app */,
+				833A90C92D2A16CD0060EF5B /* PrizzAITests.xctest */,
+				833A90D32D2A16CD0060EF5B /* PrizzAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833A90BB2D2A16C60060EF5B /* PrizzAI */ = {
+			isa = PBXGroup;
+			children = (
+				833A90BC2D2A16C60060EF5B /* PrizzAIApp.swift */,
+				833A90BE2D2A16C60060EF5B /* ContentView.swift */,
+				833A90C02D2A16CC0060EF5B /* Assets.xcassets */,
+				833A90C22D2A16CC0060EF5B /* Preview Content */,
+			);
+			path = PrizzAI;
+			sourceTree = "<group>";
+		};
+		833A90C22D2A16CC0060EF5B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				833A90C32D2A16CC0060EF5B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		833A90CC2D2A16CD0060EF5B /* PrizzAITests */ = {
+			isa = PBXGroup;
+			children = (
+				833A90CD2D2A16CD0060EF5B /* PrizzAITests.swift */,
+			);
+			path = PrizzAITests;
+			sourceTree = "<group>";
+		};
+		833A90D62D2A16CD0060EF5B /* PrizzAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				833A90D72D2A16CD0060EF5B /* PrizzAIUITests.swift */,
+				833A90D92D2A16CD0060EF5B /* PrizzAIUITestsLaunchTests.swift */,
+			);
+			path = PrizzAIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		833A90B82D2A16C60060EF5B /* PrizzAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833A90DD2D2A16CD0060EF5B /* Build configuration list for PBXNativeTarget "PrizzAI" */;
+			buildPhases = (
+				833A90B52D2A16C60060EF5B /* Sources */,
+				833A90B62D2A16C60060EF5B /* Frameworks */,
+				833A90B72D2A16C60060EF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrizzAI;
+			productName = PrizzAI;
+			productReference = 833A90B92D2A16C60060EF5B /* PrizzAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		833A90C82D2A16CD0060EF5B /* PrizzAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833A90E02D2A16CD0060EF5B /* Build configuration list for PBXNativeTarget "PrizzAITests" */;
+			buildPhases = (
+				833A90C52D2A16CD0060EF5B /* Sources */,
+				833A90C62D2A16CD0060EF5B /* Frameworks */,
+				833A90C72D2A16CD0060EF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833A90CB2D2A16CD0060EF5B /* PBXTargetDependency */,
+			);
+			name = PrizzAITests;
+			productName = PrizzAITests;
+			productReference = 833A90C92D2A16CD0060EF5B /* PrizzAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		833A90D22D2A16CD0060EF5B /* PrizzAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833A90E32D2A16CD0060EF5B /* Build configuration list for PBXNativeTarget "PrizzAIUITests" */;
+			buildPhases = (
+				833A90CF2D2A16CD0060EF5B /* Sources */,
+				833A90D02D2A16CD0060EF5B /* Frameworks */,
+				833A90D12D2A16CD0060EF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833A90D52D2A16CD0060EF5B /* PBXTargetDependency */,
+			);
+			name = PrizzAIUITests;
+			productName = PrizzAIUITests;
+			productReference = 833A90D32D2A16CD0060EF5B /* PrizzAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		833A90B12D2A16C60060EF5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					833A90B82D2A16C60060EF5B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					833A90C82D2A16CD0060EF5B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 833A90B82D2A16C60060EF5B;
+					};
+					833A90D22D2A16CD0060EF5B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 833A90B82D2A16C60060EF5B;
+					};
+				};
+			};
+			buildConfigurationList = 833A90B42D2A16C60060EF5B /* Build configuration list for PBXProject "PrizzAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 833A90B02D2A16C60060EF5B;
+			productRefGroup = 833A90BA2D2A16C60060EF5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				833A90B82D2A16C60060EF5B /* PrizzAI */,
+				833A90C82D2A16CD0060EF5B /* PrizzAITests */,
+				833A90D22D2A16CD0060EF5B /* PrizzAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		833A90B72D2A16C60060EF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833A90C42D2A16CC0060EF5B /* Preview Assets.xcassets in Resources */,
+				833A90C12D2A16CC0060EF5B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833A90C72D2A16CD0060EF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833A90D12D2A16CD0060EF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833A90B52D2A16C60060EF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833A90BF2D2A16C60060EF5B /* ContentView.swift in Sources */,
+				833A90BD2D2A16C60060EF5B /* PrizzAIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833A90C52D2A16CD0060EF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833A90CE2D2A16CD0060EF5B /* PrizzAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833A90CF2D2A16CD0060EF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833A90DA2D2A16CD0060EF5B /* PrizzAIUITestsLaunchTests.swift in Sources */,
+				833A90D82D2A16CD0060EF5B /* PrizzAIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		833A90CB2D2A16CD0060EF5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833A90B82D2A16C60060EF5B /* PrizzAI */;
+			targetProxy = 833A90CA2D2A16CD0060EF5B /* PBXContainerItemProxy */;
+		};
+		833A90D52D2A16CD0060EF5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833A90B82D2A16C60060EF5B /* PrizzAI */;
+			targetProxy = 833A90D42D2A16CD0060EF5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		833A90DB2D2A16CD0060EF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		833A90DC2D2A16CD0060EF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		833A90DE2D2A16CD0060EF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrizzAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 26G8B7FNDG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CJB.PrizzAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		833A90DF2D2A16CD0060EF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrizzAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 26G8B7FNDG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CJB.PrizzAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		833A90E12D2A16CD0060EF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26G8B7FNDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CJB.PrizzAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrizzAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrizzAI";
+			};
+			name = Debug;
+		};
+		833A90E22D2A16CD0060EF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26G8B7FNDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CJB.PrizzAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrizzAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrizzAI";
+			};
+			name = Release;
+		};
+		833A90E42D2A16CD0060EF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26G8B7FNDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CJB.PrizzAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrizzAI;
+			};
+			name = Debug;
+		};
+		833A90E52D2A16CD0060EF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26G8B7FNDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CJB.PrizzAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrizzAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		833A90B42D2A16C60060EF5B /* Build configuration list for PBXProject "PrizzAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833A90DB2D2A16CD0060EF5B /* Debug */,
+				833A90DC2D2A16CD0060EF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833A90DD2D2A16CD0060EF5B /* Build configuration list for PBXNativeTarget "PrizzAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833A90DE2D2A16CD0060EF5B /* Debug */,
+				833A90DF2D2A16CD0060EF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833A90E02D2A16CD0060EF5B /* Build configuration list for PBXNativeTarget "PrizzAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833A90E12D2A16CD0060EF5B /* Debug */,
+				833A90E22D2A16CD0060EF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833A90E32D2A16CD0060EF5B /* Build configuration list for PBXNativeTarget "PrizzAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833A90E42D2A16CD0060EF5B /* Debug */,
+				833A90E52D2A16CD0060EF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 833A90B12D2A16C60060EF5B /* Project object */;
+}
